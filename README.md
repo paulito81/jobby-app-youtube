@@ -1,4 +1,6 @@
 # jobby-app-youtube
+A projec about creating different vue-cards, populated with local json data.
+
 
 ## Project setup
 ```
