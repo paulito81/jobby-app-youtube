@@ -7,7 +7,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "What are flowers anyway? How can you threat them nice? Read more",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Flower hill"
     },
     {
@@ -19,7 +19,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "A Book about your life story and how to behave among people in general",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Bookly"
     },
     {
@@ -31,7 +31,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Fork me a river, or fork up the bucks! Here comes stainless steel forks!",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Forky"
     },
     {
@@ -43,7 +43,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Doug bags, idiots and scum are my neighboors.Hate or not to hate ?",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Livly"
     },
     {
@@ -55,7 +55,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "What are ants and how will the populate the world after humans?",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Anty"
     },
     {
@@ -67,7 +67,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "The straws in life how wonderfully crazy they can hurt you!",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Strawy"
     },
     {
@@ -79,7 +79,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Data, computers, hardware stuff why and what are they good for?",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Compy"
     },
     {
@@ -91,7 +91,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Big grey matter, dark concrete and rusty materials. How will they affect your future!",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Wally"
     },
     {
@@ -103,7 +103,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Coffe and the story for its containment. Coffee is so great that people will kill for it!",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Caffey"
     },
     {
@@ -115,7 +115,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Warm weather, new flowers and bees come to me! Fly into my shadow and rest.",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Springy"
     },
     {
@@ -127,7 +127,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "California the biggest state in America. In this land you will experience wild nature...",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Caliy"
     },
     {
@@ -139,7 +139,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Clouds, white and round. Some small other big and dark. Weather is as unpredictable as nature itself.",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Cloudy"
     },
     {
@@ -151,7 +151,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "LP is the ancestor of cassett and CD. Why was the music medium so insanely popular?",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Lpy"
     }, 
     {
@@ -163,7 +163,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "Rain that falls. Big soft and round particles are sticky together in a web of happiness.",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Rainy"
     },
     {
@@ -175,7 +175,7 @@
         "styles": "max-width:20rem",
         "classe": "mb-2",
         "cardtext": "The fog is a thriller made by CJ. Hickhoock. A crazy man is loose on the beach, then who is safe?",
-        "buttontext": "Apply",
+        "buttontext": "Read more",
         "headers": "Foggy"
     }
 ]

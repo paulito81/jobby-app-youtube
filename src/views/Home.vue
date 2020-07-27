@@ -5,6 +5,7 @@
         <Card
           v-for="web in displayWebsites"
           :key="web.id"
+          :id="web.id"
           :title="web.title"
           :imgsrc="web.imgsrc"
           :alt="web.alt"
@@ -14,6 +15,7 @@
           :cardtext="web.cardtext"
           :buttontext="web.buttontext"
           :headers="web.headers"
+          :pText="web.cardtext"
         />
       </b-row>
       <b-pagination
@@ -46,9 +48,9 @@ export default {
   },
   data() {
     return {
-      currentPage: 1,
       // websites: [],
       // rows: 1,
+      currentPage: 1,
       perPage: 3
     };
   },

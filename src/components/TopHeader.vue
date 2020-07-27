@@ -1,13 +1,15 @@
 <template>
-  <div class="header">
+  <div class="top-header">
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <b-navbar-brand href="#">Category Search</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item to="/about">About</b-nav-item>
         </b-navbar-nav>
+
         <b-navbar-nav class="ml-auto">
           <b-nav-form @submit.prevent="search">
             <b-form-input
@@ -28,9 +30,10 @@
 
 <script>
 export default {
-  name: "header",
+  name: "top-header",
   methods: {
     search() {
+      alert(this.searchText);
       this.$store.dispatch("search", { text: this.searchText });
     }
   },
