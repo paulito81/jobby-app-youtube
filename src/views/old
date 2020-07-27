@@ -2,6 +2,20 @@
   <div class="home">
     <b-container class="bv-example-row">
       <b-row align-v="center">
+        <!-- <Card
+        title="The Flower hill"
+        imgsrc="https://picsum.photos/600/300/?image=25"
+        alt="tree branches"
+        img-top
+        tag="article"
+        styles="max-width:20rem"
+        classe="mb-2"
+        cardtext="What are flowers anyway? How can you threat them nice? Read
+            more"
+        buttontext="Apply"
+        headers="Flower hill"
+      />
+       -->
         <Card
           v-for="web in displayWebsites"
           :key="web.id"
@@ -38,7 +52,7 @@ export default {
   name: "home",
   components: { Card },
   computed: {
-    ...mapGetters(["websites", "displayWebsites", "rows"])
+    ...mapGetters(["getWebsites", "getDisplayWebsites", "getRows"])
   },
   mounted() {
     // Lettere å teste metoder ved å kalle dem slik.
@@ -46,9 +60,10 @@ export default {
   },
   data() {
     return {
+      websites: [],
+      displayWebsites: [],
       currentPage: 1,
-      // websites: [],
-      // rows: 1,
+      rows: 1,
       perPage: 3
     };
   },
@@ -56,9 +71,20 @@ export default {
     async fetchData() {
       await this.$store.dispatch("fetchWebsites");
       console.log("test", this.$store.getters.websites);
+      // const response = await fetch("webs.json");
+      // const value = await response.json();
+      // this.websites = value;
+      // this.displayWebsites = value.slice(0, 3);
+      // console.log(value);
+      // this.displayWebsites = this.websites.slice(0, 3);
+      // this.websites = this.getWebsites;
+      // this.rows = this.websites.length;
+      console.log(this.websites);
     },
     paginate(currentPage) {
       this.$store.dispatch("paginate", { currentPage, perPage: this.perPage });
+      //   const start = (currentPage - 1) * this.perPage;
+      //   this.displayWebsites = this.websites.slice(start, start + 3);
     }
   }
 };

@@ -1,0 +1,71 @@
+  [{
+          "name": "Mc Donalds",
+          "description": "Hamburger fastfood joint",
+          "id": 101
+      },
+      {
+          "name": "Burger King",
+          "description": "Hamburger fastfood joint with bigger burgers",
+          "id": 102
+      },
+      {
+          "name": "KFC",
+          "description": "Chicken fastfood joint",
+          "id": 103
+      },
+      {
+          "name": "Dunkin Dougnuts",
+          "description": "Dougnuts fastfood joint also cake",
+          "id": 104
+      },
+      {
+          "name": "Texas Steakhouse",
+          "description": "Real good steakhouse serves also salads",
+          "id": 105
+      },
+      {
+          "name": "Wendys",
+          "description": "Hamburger fastfood place with more meat",
+          "id": 106
+      },
+      {
+          "name": "Fridays",
+          "description": "A family restaurant which shows sports",
+          "id": 107
+      },
+      {
+          "name": "La baguette",
+          "description": "Eat a healthy baguette for breakfast",
+          "id": 108
+      },
+      {
+          "name": "Annen etasje",
+          "description": "Luxury dining for fancy people",
+          "id": 109
+      },
+      {
+          "name": "Dinner",
+          "description": "A nice asian-fusion restaurant",
+          "id": 110
+      },
+      {
+          "name": "South east",
+          "description": "A classic asian restaurant",
+          "id": 111
+      },
+      {
+          "name": "Keyman island",
+          "description": "Expressive vegitarian restaurant",
+          "id": 112
+      },
+      {
+          "name": "Fish o hoi",
+          "description": "Fish fastfood joint",
+          "id": 113
+      },
+      {
+          "name": "Tacoria",
+          "description": "A tacoplace with mexican food",
+          "id": 114
+      }
+  ]
