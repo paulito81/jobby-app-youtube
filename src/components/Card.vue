@@ -33,7 +33,7 @@
 export default {
   name: "card",
   props: {
-    id: String,
+    id: Number,
     pText: String,
     title: String,
     imgsrc: String,

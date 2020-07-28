@@ -64,18 +64,29 @@ export default new Vuex.Store({
 
     async search({ dispatch }, { text }) {
       const myJson = await dispatch("fetchData");
-      var values;
-      try {
-        values = myJson.filter(value => {
-          return value.name.toLowerCase().includes(text.toLowerCase());
-        });
-        dispatch("updatePagination", {
-          myJson: values,
-          currentPage: 1,
-          perPage: 3
-        });
-      } catch (err) {
-        console.log("Error: ", this.values);
+      var amountErrors = 0;
+      console.log("TEXT:", text);
+      for (var word in myJson) {
+        if (myJson[word].title.includes(text)) {
+          // array.push(myJson[word].title);
+          console.log(myJson[word].title);
+          amountErrors++;
+          try {
+            //  var values;
+            //   values.push(myJson.filter(value => value.name.includes(text)));
+            const values = myJson.filter(value => {
+              return value.name.toLowerCase().includes(text.toLowerCase());
+            });
+
+            dispatch("updatePagination", {
+              myJson: values,
+              currentPage: 1,
+              perPage: 3
+            });
+          } catch {
+            console.log("Error", amountErrors);
+          }
+        }
       }
     }
   },
